@@ -1,0 +1,660 @@
+mb_no :  1
+mb_id :  admin
+mb_password :  sha256:12000:78Bgm/RPynv3K763+bI3sik/rVRBIFvq:qFmuJufh4g+qz9oIR8AK5CBht+jcPL7k
+mb_name :  최고관리자
+mb_nick :  최고관리자
+mb_nick_date :  2020-05-01
+mb_email :  admin@domain.com
+mb_homepage :  
+mb_level :  10
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  
+mb_addr2 :  
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  227606
+mb_today_login :  2020-07-30 16:42:25
+mb_login_ip :  172.69.34.175
+mb_datetime :  2020-03-13 23:29:50
+mb_ip :  222.118.104.12
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-03-13 23:29:50
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  0
+mb_open :  1
+mb_open_date :  0000-00-00
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  소속명 TEST
+mb_2 :  직위 TEST
+mb_3 :  
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------
+mb_no :  2
+mb_id :  dhdud
+mb_password :  sha256:12000:s4hKLPlsXWjvrDgrzTDjUY7rzOKT2bnv:5UO9fM+nPGVJauQURg++1gccOIRLLEK/
+mb_name :  오영
+mb_nick :  라플
+mb_nick_date :  2020-03-14
+mb_email :  dhdud30321@naver.com
+mb_homepage :  
+mb_level :  2
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  
+mb_addr2 :  
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  0
+mb_today_login :  2020-06-07 23:36:46
+mb_login_ip :  162.158.119.200
+mb_datetime :  2020-03-14 11:38:05
+mb_ip :  219.241.128.131
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-03-14 11:38:05
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  0
+mb_open :  1
+mb_open_date :  2020-03-14
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  
+mb_2 :  
+mb_3 :  
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------
+mb_no :  9
+mb_id :  el_0
+mb_password :  sha256:12000:NgbRNJiSP1ruNhSKEp/Il1uRhecRvY2Q:E8vkH57wAJQLAVGJo8h0j5GyIiDhal7q
+mb_name :  이지은
+mb_nick :  아이유
+mb_nick_date :  2020-04-11
+mb_email :  qwer@naver.com
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  010-123-1234
+mb_hp :  
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  
+mb_addr2 :  
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  450500
+mb_today_login :  2020-05-26 14:38:13
+mb_login_ip :  172.69.35.36
+mb_datetime :  2020-04-11 21:07:26
+mb_ip :  118.34.9.71
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-04-11 21:07:26
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-04-11
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  
+mb_2 :  
+mb_3 :  
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  
+-----------------------------------
+mb_no :  8
+mb_id :  el_1
+mb_password :  sha256:12000:qT4fgLBRV7TzzAA00SeFrvKDrXB1tS2H:NUq4icBI+ArBShbpWlch3C0OhHiIHNnm
+mb_name :  홍길동
+mb_nick :  길동
+mb_nick_date :  2020-04-11
+mb_email :  dhdud@naver.com
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  010-123-1234
+mb_hp :  010-123-1234
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  
+mb_addr2 :  
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  0
+mb_today_login :  2020-04-27 14:31:34
+mb_login_ip :  182.228.103.21
+mb_datetime :  2020-04-11 20:53:39
+mb_ip :  118.34.9.71
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-04-11 20:53:39
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-04-11
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  
+mb_2 :  
+mb_3 :  
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  
+-----------------------------------
+mb_no :  7
+mb_id :  qwer
+mb_password :  sha256:12000:n4T9CBoe+DvdN6To0I6b99LF2rmYho6R:MCoSFdQOz+qVyBscmsbZVSB3fCQQt2Tc
+mb_name :  오영
+mb_nick :  유애나
+mb_nick_date :  2020-03-15
+mb_email :  dhdid@naver.com
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  123-123-1234
+mb_hp :  010-123-1234
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  077
+mb_zip2 :  28
+mb_addr1 :  서울 강서구 까치산로 4
+mb_addr2 :  
+mb_addr3 :  (화곡동, 하이트맨션)
+mb_addr_jibeon :  R
+mb_signature :  
+mb_recommend :  
+mb_point :  0
+mb_today_login :  2020-03-15 14:59:01
+mb_login_ip :  219.241.128.131
+mb_datetime :  2020-03-15 14:59:01
+mb_ip :  219.241.128.131
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-03-15 14:59:01
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-03-15
+mb_profile :  ㄱㄱ
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  
+mb_2 :  
+mb_3 :  
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  애플
+-----------------------------------
+mb_no :  10
+mb_id :  gg4023
+mb_password :  sha256:12000:HDT5Kpyw2zUU/mwyIAvgQnFBsc+G5J/T:2Zj6Ady21+ND8z4NsEkI+0U6fVz+pAF3
+mb_name :  이도현
+mb_nick :  글로벌
+mb_nick_date :  2020-05-06
+mb_email :  gg4023@hanmail.net
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  
+mb_addr2 :  
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  0
+mb_today_login :  2020-06-09 13:04:23
+mb_login_ip :  162.158.118.199
+mb_datetime :  2020-05-06 15:52:10
+mb_ip :  162.158.178.246
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-05-06 15:52:10
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  0
+mb_open :  1
+mb_open_date :  2020-05-06
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  
+mb_2 :  
+mb_3 :  
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------
+mb_no :  11
+mb_id :  dhdud777
+mb_password :  sha256:12000:PlxnG02jijwFfA8xxkMLmeeXG0zhSzpb:g14ijQIjtp68NyRPoFd1+zFynjFiLrLo
+mb_name :  송오영
+mb_nick :  나다
+mb_nick_date :  2020-05-16
+mb_email :  dhdud303221@naver.com
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  010-9277-7241
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  시/도
+mb_addr2 :  시/군/도
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  950000
+mb_today_login :  2020-07-20 21:02:30
+mb_login_ip :  162.158.7.86
+mb_datetime :  2020-05-16 17:20:57
+mb_ip :  108.162.245.75
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-05-16 17:20:57
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-05-16
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  삼성
+mb_2 :  애플
+mb_3 :  사장
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------
+mb_no :  12
+mb_id :  gilsarangyo
+mb_password :  sha256:12000:GLd/lDTZoYpRE32WnPzk5u7NIO69n3mw:UjFHbhGuPXg+PbN81FAdbZRov7lYseZg
+mb_name :  김미영
+mb_nick :  길사랑요
+mb_nick_date :  2020-05-21
+mb_email :  gilsarangyo@naver.com
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  010-8248-5708
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  시/도
+mb_addr2 :  시/군/도
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  36000
+mb_today_login :  2020-07-01 17:08:31
+mb_login_ip :  162.158.119.150
+mb_datetime :  2020-05-21 13:33:14
+mb_ip :  162.158.119.136
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-05-21 13:33:14
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-05-21
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  글로벌금융판매
+mb_2 :  db총괄센터
+mb_3 :  센터장
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------
+mb_no :  13
+mb_id :  whdgmlwld
+mb_password :  sha256:12000:ISEk9NQg4uQ38zz0kVIiog2tYp6fHET6:TBoHWLpzfC7b3PdOYbx6gYTnjP72QNuk
+mb_name :  민종희
+mb_nick :  민종희1111
+mb_nick_date :  2020-05-22
+mb_email :  whdgmlwld@hanmail.net
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  010-5069-4922
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  서울특별시
+mb_addr2 :  강서구
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  19900
+mb_today_login :  2020-07-20 09:37:17
+mb_login_ip :  172.69.33.54
+mb_datetime :  2020-05-22 16:39:40
+mb_ip :  108.162.215.165
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-05-22 16:39:40
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  542db8123348622484329044cbdb07ab sha256:12000:bAguhxvEhdU+ARqYz3g5V9ScjBTWQivD:oCDZ5CednvAKlXTMht0kCZb/NFch7/oC
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-05-22
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  테스트 GA명
+mb_2 :  테스트 지사명
+mb_3 :  전사담당
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------
+mb_no :  14
+mb_id :  denisel
+mb_password :  sha256:12000:BRM+rlLDF/2zBypziPwfjpJHkqB7Kp4U:99R3G9eGktBz9jHeFEeokeWzf3uJqLhb
+mb_name :  차범준
+mb_nick :  DbManager
+mb_nick_date :  2020-05-27
+mb_email :  denisel@naver.com
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  010-7141-0614
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  서울특별시
+mb_addr2 :  영등포구
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  2580000
+mb_today_login :  2020-07-30 10:20:19
+mb_login_ip :  162.158.118.81
+mb_datetime :  2020-05-27 09:29:36
+mb_ip :  162.158.118.155
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-05-27 09:29:36
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  98d02c43ca18d186d98613063619fdec sha256:12000:IbMos7LcZcYp+6QiO+W2DgrHtCqNU9dk:U/SkC8D5EiC8WlkIR6pkYgiyA81QuIR2
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-05-27
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  글로벌금융판매
+mb_2 :  SNP총괄
+mb_3 :  FC
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------
+mb_no :  15
+mb_id :  vipforever
+mb_password :  sha256:12000:oNfdQA69CB/Py3g4ajlmmmlu5/IeKth1:FtDrZ9YsqEGUxFuaLVzSkfRvh9FbhW50
+mb_name :  김기린
+mb_nick :  야무진아이
+mb_nick_date :  2020-06-11
+mb_email :  vipforever7@naver.com
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  010-7141-0614
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  서울특별시
+mb_addr2 :  강남구
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  0
+mb_today_login :  2020-06-11 10:54:24
+mb_login_ip :  162.158.119.42
+mb_datetime :  2020-06-11 10:54:24
+mb_ip :  162.158.119.42
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-06-11 10:54:24
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-06-11
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  에스앤피
+mb_2 :  강남
+mb_3 :  fa
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------
+mb_no :  16
+mb_id :  whdgml2
+mb_password :  sha256:12000:2QJgNcDX4cSfXbe8Ffg8u+9HFb3pP30e:Zr+PAxjkrPr+GDtygOGO3QHQ1DdlzwVV
+mb_name :  테스트
+mb_nick :  테스트1
+mb_nick_date :  2020-07-15
+mb_email :  jonghee7010@naver.com
+mb_homepage :  
+mb_level :  1
+mb_sex :  
+mb_birth :  
+mb_tel :  
+mb_hp :  010-2222-2222
+mb_certify :  
+mb_adult :  0
+mb_dupinfo :  
+mb_zip1 :  
+mb_zip2 :  
+mb_addr1 :  강원도
+mb_addr2 :  강릉시
+mb_addr3 :  
+mb_addr_jibeon :  
+mb_signature :  
+mb_recommend :  
+mb_point :  0
+mb_today_login :  2020-07-15 15:11:27
+mb_login_ip :  172.69.33.240
+mb_datetime :  2020-07-15 15:11:27
+mb_ip :  172.69.33.240
+mb_leave_date :  
+mb_intercept_date :  
+mb_email_certify :  2020-07-15 15:12:16
+mb_email_certify2 :  
+mb_memo :  
+mb_lost_certify :  
+mb_mailling :  1
+mb_sms :  1
+mb_open :  1
+mb_open_date :  2020-07-15
+mb_profile :  
+mb_memo_call :  
+mb_memo_cnt :  0
+mb_scrap_cnt :  0
+mb_1 :  
+mb_2 :  
+mb_3 :  
+mb_4 :  
+mb_5 :  
+mb_6 :  
+mb_7 :  
+mb_8 :  
+mb_9 :  
+mb_10 :  
+INSUREID :  NULL
+-----------------------------------

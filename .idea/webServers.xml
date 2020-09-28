@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="385e3bc7-9804-4cda-b349-fe70af50699b" name="New_DBtrade">
+        <fileTransfer rootFolder="/var/www" accessType="SFTP" host="49.247.133.157" port="22" sshConfigId="98d336e5-4721-40b4-9b00-bf27adf805da" sshConfig="root@49.247.133.157:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

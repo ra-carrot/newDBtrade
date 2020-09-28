@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* 배너 스킨 */
+.bn {padding:10px 15px 0 14px; display:block; background:#fff; position:fixed; right:3%; top: 30%;}
+.bn_link {margin-bottom:10px; text-align:center; width: 200px; height: 120px; border: 1px solid #555;}
+.bn_link span{
+	font-size: 24px;
+}
+.bn_link img{
+	
+	width: 198px;
+	height: 80px;
+}
+
+@media (max-width: 1800px){
+	.bn{
+		display: none;
+	}
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>file upload test</title>
+</head>
+<body>
+<div>
+    <button onclick="location.href = './excel_down.php?fc=on'" >FC 양식</button>
+<!--    <button onclick="location.href = './excel_down.php?fc=off'">FC 미배정 양식</button>-->
+</div>
+
+<div>
+    <form id="file_upload_test" class="upload_test" method="post" enctype="multipart/form-data" action="./user_excel_upload.php">
+        <input type="file" id="excel_upload" name="excel_upload" accept="application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <input type="submit" name="upload_btn" value="업로드">
+    </form>
+</div>
+
+</form>
+</body>
+</html>

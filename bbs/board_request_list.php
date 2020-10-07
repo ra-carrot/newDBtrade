@@ -75,6 +75,7 @@ if (file_exists($skin_file)) {
 	$list->set_view('it_cust_price', false);
 	$list->set_view('it_price', false);
 	$list->set_view('it_icon', false);
+	$list->set_href("33");
 	$list->set_view('sns', false);
 	echo $list->run();
 

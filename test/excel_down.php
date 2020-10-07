@@ -10,7 +10,6 @@ $fc_list = $d->getAllFc_list();
 
 error_reporting(E_ALL);
 ini_set("display_errors",1);
-
 //db
 $d = new Dao();
 $arrCustomers = $d->getAllCustomers();
@@ -36,8 +35,7 @@ if($fc_val == "on"){
         ->setCellValue("J1", "연락처 (-포함)")
         ->setCellValue("K1", "지역")
         ->setCellValue("L1", "방문요청일 예)2020-01-01")
-        ->setCellValue("M1", "공급가격")
-        ->setCellValue("N1", "포인트 차감 금액");;
+        ->setCellValue("M1", "공급가격");
 
     $count = 1;
     //row data insert
@@ -51,10 +49,10 @@ if($fc_val == "on"){
         $count++;
     }
 
-    $objPHPExcel -> getActiveSheet() -> getStyle("A1:N1") -> getFont() -> setBold(true);
-    $objPHPExcel -> getActiveSheet() -> getStyle("A1:N1") -> getFill() -> setFillType(PHPExcel_Style_Fill::FILL_SOLID)-> getStartColor() -> setRGB("CECBCA");
+    $objPHPExcel -> getActiveSheet() -> getStyle("A1:M1") -> getFont() -> setBold(true);
+    $objPHPExcel -> getActiveSheet() -> getStyle("A1:M1") -> getFill() -> setFillType(PHPExcel_Style_Fill::FILL_SOLID)-> getStartColor() -> setRGB("CECBCA");
 
-    $objPHPExcel->getActiveSheet()->getStyle('A1:N1')->applyFromArray($all_border);
+    $objPHPExcel->getActiveSheet()->getStyle('A1:M1')->applyFromArray($all_border);
     $objPHPExcel->getActiveSheet()->getStyle(sprintf("D1:D%s", $count))->applyFromArray($right_border);
 
     foreach(range('A','N') as $columnID) {

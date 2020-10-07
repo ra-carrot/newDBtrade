@@ -16,10 +16,10 @@ $user_data = $d->getUser($customer_id);
 ?>
 <style>
 .grid_2{
-	width: 10%;
+	width: 13%;
 }
 .grid_4{
-	width: 40%;
+	width: 37%;
 }
 .frm_input{
 	width: 100%;
@@ -32,6 +32,26 @@ $user_data = $d->getUser($customer_id);
 }
 .input_half{
 	width: 30%;
+}
+.tbl_frm01{
+	font-family: NanumSquare_ac;
+}
+
+.tbl_frm01 th{
+	font-size: 17px;
+	text-align: center;
+}
+
+input.btn_cancel{
+	position: relative;
+	background-color: #3a8afd;
+	border: 1px solid #3a8afd;
+	padding: 10px 30px;
+	font-size: 20px;
+	top: 10px;
+	left: 50%;
+	transform: translate(-50%);
+	
 }
 </style>
 <div class="tbl_frm01 tbl_wrap">
@@ -77,9 +97,9 @@ $user_data = $d->getUser($customer_id);
 					</td>
 				</tr>
 				<tr>
-					<th scope="row"><label for="메모1">메모(특이사항)</label></th>
+					<th scope="row"><label for="메모1">메모<br>(특이사항)</label></th>
 					<td><input type="textarea" name="mb_memo" value="<?php echo $user_data["mb_memo"] ?>" id="메모1" class="frm_input memo"></td>
-					<th scope="row"><label for="메모2">메모(상담시 요청사항)</label></th>
+					<th scope="row"><label for="메모2">메모<br>(상담시요청사항)</label></th>
 					<td><input type="textarea" name="mb_request_memo" value="<?php echo $user_data["mb_request_memo"] ?>" id="메모2" class="frm_input memo"></td>
 				</tr>
 				<tr>
@@ -88,6 +108,20 @@ $user_data = $d->getUser($customer_id);
 					<th scope="row"><label for="첨부2">첨부(녹음파일)</label></th>
 					<td><input  class="fileHeight" name="mb_file1" class="" type="file" value=""></td>
 				</tr>					
+				<tr>
+					<th scope="row"><label for="첨부1">첨부(이미지)</label></th>
+					<td><span class="fileBox">
+						<label for="증명사진">찾아보기...</label>
+						<input class="form-control upload-name" value="파일을 선택해주세요.">
+					</span>
+					<input class="file-upload" type="file" name="attach[]" id="증명사진" accept="image/png, .pdf, .zip, .7zip, image/jpeg" ></td>
+					<th scope="row"><label for="첨부1">첨부(이미지)</label></th>
+					<td><span class="fileBox">
+						<label for="증명사진">찾아보기...</label>
+						<input class="form-control upload-name" value="파일을 선택해주세요.">
+					</span>
+					<input class="file-upload" type="file" name="attach[]" id="증명사진" accept="image/png, .pdf, .zip, .7zip, image/jpeg" ></td>
+				</tr>
 			</tbody>
 		</table>
 		<input class="btn_cancel searchHeight" type="submit" value="수정하기">

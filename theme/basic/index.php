@@ -21,7 +21,7 @@ if($is_admin) {
     header("Location:/bbs/login.php");
 }
 ?>
-    <link rel="stylesheet" href="http://globaldbtrade.co.kr/theme/basic/skin/latest/basic/style.css?ver=22">
+    
     <!--<h2 class="sound_only">최신글</h2>-->
 
     <style>
@@ -46,49 +46,40 @@ if($is_admin) {
 <div class="grid">
     <div class="row">
         <!-- 성공후기 -->
-		<div  class="latest_top_wr">	
-		
-
-			<div class="lat latLink">
-				<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board_sell_list.php"><img src="https://globaldbtrade.co.kr/img/main/main_01.png"></a>
+		<div  class="latest_top_wr">
+			<div>
+				<div class="lat latLink lat_1">
+					<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board_sell_list.php"></a>
+				</div>
+				<div class="lat latLink lat_2">
+					<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board_request_list.php"></a>
+				</div>
+				<div class="lat latLink lat_3">
+					<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board_sell_my_list.php"></a>
+				</div>
+				<div class="bar"></div>
 			</div>
-			
-			<div class="lat latLink">
-				<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board_request_list.php"><img src="https://globaldbtrade.co.kr/img/main/main_02.png"></a>
+			<div>
+				<div class="lat latLink lat_4">
+					<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/deposit.php"></a>
+				</div>
+				<div class="lat latLink lat_5">
+					<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board.php?bo_table=notice"></a>
+				</div>			
+				<div class="lat latLink lat_6">
+					<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board.php?bo_table=notice"></a>
+				</div>
+				<div class="bar"></div>
 			</div>
-			
-			<div class="lat latLink">
-				<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board_sell_my_list.php"><img src="https://globaldbtrade.co.kr/img/main/main_03.png"></a>
-			</div>
-			
-			<div class="lat latLink">
-				<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/deposit.php"><img src="https://globaldbtrade.co.kr/img/main/main_04.png"></a>
-			</div>
-			
-			<div class="lat latLink">
-				<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board.php?bo_table=notice"><img src="https://globaldbtrade.co.kr/img/main/main_05.png"></a>
-			</div>
-			
-			<!--<div class="lat latLink">
-				<h2 class="lat_title">사용후기</h2>
-				<img src="./img/main/review.png?ver=1" alt="사용후기">
-				<div class="empty_li">사용후기</div>
-				<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board.php?bo_table=review_success"></a>
-			</div>-->
-			
-			<div class="lat latLink">
-				<a class="linkBtn" href="https://globaldbtrade.co.kr/bbs/board.php?bo_table=notice"><img src="https://globaldbtrade.co.kr/img/main/main_06.png"></a>
-			</div>
-			
-
 		</div>
-		
-		
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 border_1">
+	</div>
+	
+	<div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-1">
 			<!--<div class="col-12 textBox">사용후기, 성공사례, 노하우등 공유하고 보너스 받아요^^</div>-->
 			<?php echo latest("basic", review_success, 5, 50);?>
         </div>
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 border_1">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pl-1">
 			<!--<div class="col-12 textBox">사용후기, 성공사례, 노하우등 공유하고 보너스 받아요^^</div>-->
 			<?php echo latest("notice", notice, 5, 50);?>
         </div>
@@ -98,12 +89,12 @@ if($is_admin) {
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-10">
 			<div class="lat">
 				<h2 class="lat_title"><a href="https://globaldbtrade.co.kr/bbs/board_sell_list.php" >신청자현황</a></h2>
-				<a class="lt_more" href="https://globaldbtrade.co.kr/bbs/board_sell_list.php"><span class="sound_only">신청자현황</span>더보기</a>
-				<div class="tbl_head01 tbl_wrap">
+				<!--<a class="lt_more" href="https://globaldbtrade.co.kr/bbs/board_sell_list.php"><span class="sound_only">신청자현황</span>더보기</a>-->
+				<div class="tbl_head03 tbl_wrap">
 					<table class="text-center">
 						<thead>
 						<tr class="tbl_head_tr">
-							<th scope="cols">고객 번호</th>
+							<th scope="cols">번호</th>
 							<th scope="cols">캠페인명</th>
 							<th scope="cols">신청일</th>
 							<th scope="cols">고객이름</th>

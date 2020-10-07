@@ -12,8 +12,8 @@ foreach((array) $list as $row){
 
     if( empty($row) ) continue;
     $i++;
-
-    $item_link_href = shop_item_url($row['it_id']);
+    $item_link_href = $row['it_1'];
+    //$item_link_href = shop_item_url($row['it_id']);
     $star_score = $row['it_use_avg'] ? (int) get_star($row['it_use_avg']) : '';
 
     if ($this->list_mod >= 2) { // 1줄 이미지 : 2개 이상
@@ -35,7 +35,8 @@ foreach((array) $list as $row){
     echo "<li class=\"sct_li{$sct_last}\" data-css=\"nocss\" style=\"width:{$this->img_width}px\">\n";
 
     if ($this->href) {
-        echo "<div class=\"sct_img\"><a href=\"{$item_link_href}\" class=\"sct_a\">\n";
+        echo "<div class=\"sct_img\"><a target='_blank' href=\"{$item_link_href}\" class=\"sct_a\">\n";
+        //echo "<div class=\"sct_img\"><a href=\"{$item_link_href}\" class=\"sct_a\">\n";
     }
 
     if ($this->view_it_img) {

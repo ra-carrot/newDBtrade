@@ -315,7 +315,6 @@ class item_list
 
         if( isset($result) && $result ){
             while ($row=sql_fetch_array($result)) {
-                
                 if( isset($row['it_seo_title']) && ! $row['it_seo_title'] ){
                     shop_seo_title_update($row['it_id']);
                 }
@@ -330,7 +329,6 @@ class item_list
         }
 
         $file = $this->list_skin;
-
         if ($this->list_skin == "") {
             return $this->count."번 item_list() 의 스킨파일이 지정되지 않았습니다.";
         } else if (!file_exists($file)) {

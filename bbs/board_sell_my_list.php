@@ -357,7 +357,7 @@ $('.hasDatepicker').datepicker({
 	
 $(".detail").on("click", function(){
     var id = $(this).attr("data1");
-	window.open('list_detail.php?id=' + id ,"_blank","width=1000, height=600, scrollbars=yes,resizable=no, toolbar=no");
+	window.open('list_detail.php?id=' + id ,"_blank","width=1000, height=800, scrollbars=yes,resizable=no, toolbar=no");
 });
 </script>
 <div style="text-align:center">

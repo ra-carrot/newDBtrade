@@ -8,8 +8,8 @@ $d = new Dao();
 $error = $_FILES['excel_upload']['error'];
 include "../lib/PHPExcel.php";
 
-//error_reporting(E_ALL);
-//ini_set("display_errors",1);
+error_reporting(E_ALL);
+ini_set("display_errors",1);
 
 if ($error == UPLOAD_ERR_OK){
 
@@ -69,8 +69,24 @@ if ($error == UPLOAD_ERR_OK){
                         }else{
                             // fc_id 체크 후 업로드 유효한 것만 업로드
                             if($d->is_member($allocate_fc_id)){
-                                $d->setUserFC($allocate_fc_id, $campaign, $req_date, $name, $birth, $sex, $contact, $location, $req_visit_date, $price, 1);
+                                $result_data = $d->setUserFC($allocate_fc_id, $campaign, $req_date, $name, $birth, $sex, $contact, $location, $req_visit_date, $price, 1);
                                 $cnt++;
+                                //여기서 포인트 차감
+                                $point = $d->getPoint($allocate_fc_id);
+                                if($point != false && $point > 0){
+                                    if($d->usePoint($allocate_fc_id, $result_data["id"], $price)){
+                                        $result = array('error' => 200, 'message' => "배정되었습니다.");
+                                        echo json_encode($result, JSON_UNESCAPED_UNICODE);
+                                        return;
+                                    }else{
+                                        $result = array('error' => 500, 'message' => "문제발생");
+                                        echo json_encode($result, JSON_UNESCAPED_UNICODE);
+                                        return;
+                                    }
+                                }else{
+                                    $msg = $msg.$i."열 FC의 포인트가 포인트가 부족합니다<br>";
+                                }
+
                             }else{
                                 $msg = $msg.$i."열 존재하지 않는 FC 이름입니다.<br>";
                             }

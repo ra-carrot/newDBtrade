@@ -226,8 +226,7 @@ class Dao
         return false;
     }
 
-    public function getPoint($id)
-    {
+    public function getPoint($id){
         if ($this->dao->startTransaction()) {
             try {
                 $re = $this->dao->select("sum(po_point), sum(po_use_point)")
@@ -244,7 +243,6 @@ class Dao
                 echo $e->getTrace();
             }
         }
-        return false;
     }
 
     public function updatePrice($cid, $price)
@@ -356,7 +354,7 @@ class Dao
                 $this->dao
                     ->insert('g5_point',
                         ['mb_id', 's', $mid,
-                            'po_use_point', 'i', $usePoint,
+                            'po_use_point', 'i', $usePoint, 
                             'po_content', 's', '입금확인',
                             'po_point', 'i', 0,
                             'po_mb_point', 'i', $point_sum - $usePoint,
@@ -885,7 +883,13 @@ class Dao
                 $stmp->bindParam(12, $consult, PDO::PARAM_STR);
                 $stmp->execute();
                 $this->dao->commit();
-                return true;
+                $temp_data = $this->dao->
+                                    select('id')
+                                    ->from('customer')
+                                    ->order('id desc')
+                                    ->first();
+                return $temp_data;
+//                return true;
             }catch (ErrorException $e){
                 return $e->getTrace();
             }

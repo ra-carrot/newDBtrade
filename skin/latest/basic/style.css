@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 /* 새글 스킨 (latest) */
-.lat {position:relative;margin-bottom:20px;background:#fff}
-.lat .lat_title {display:block;line-height:45px;font-size:1.2em;color:#253dbe}
-.lat .lat_title a {position:relative;color:#000;display:inline-block}
+.lat {position:relative;margin-bottom:20px;background:#fff; font-family: NanumSquare_ac;}
+.lat .lat_title {display:block;line-height:45px;font-size:1.2em;color:#253dbe; font-family: NanumSquare_ac; font-weight:bold;}
+.lat .lat_title a {position:relative;color:#000;display:inline-block; font-size:26px;}
 
 .lat ul {padding:10px 0}
 .lat li {position:relative;line-height:18px;border-bottom:1px solid #e5ecee;margin-bottom:10px}
@@ -29,3 +29,24 @@
 .lat .lt_cmt {background:#e9eff5;color:#3a8afd;font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;vertical-align:middle}
 .lat .lt_more {position:absolute;top:11px;right:0;display:block;width:40px;line-height:25px;color:#3a8afd;border-radius:3px;text-align:center}
 .lat .lt_more:hover {color:#777}
+
+.latLink{display:inline-block; width:292px; height:312px;}
+.linkBtn{display:inline-block; width:292px; height: 312px;}
+.lat_1 .linkBtn{background: url('http://globaldbtrade.co.kr/img/main/main_01.png?v=1');}
+.lat_1 .linkBtn:hover{background: url('http://globaldbtrade.co.kr/img/main/main_01_over.png?v=1');}
+.lat_2 .linkBtn{background: url('http://globaldbtrade.co.kr/img/main/main_02.png?v=1');}
+.lat_2 .linkBtn:hover{background: url('http://globaldbtrade.co.kr/img/main/main_02_over.png?v=1');}
+.lat_3 .linkBtn{background: url('http://globaldbtrade.co.kr/img/main/main_03.png?v=1');}
+.lat_3 .linkBtn:hover{background: url('http://globaldbtrade.co.kr/img/main/main_03_over.png?v=1');}
+.lat_4 .linkBtn{background: url('http://globaldbtrade.co.kr/img/main/main_04.png?v=1');}
+.lat_4 .linkBtn:hover{background: url('http://globaldbtrade.co.kr/img/main/main_04_over.png?v=1');}
+.lat_5 .linkBtn{background: url('http://globaldbtrade.co.kr/img/main/main_05.png?v=1');}
+.lat_5 .linkBtn:hover{background: url('http://globaldbtrade.co.kr/img/main/main_05_over.png?v=1');}
+.lat_6 .linkBtn{background: url('http://globaldbtrade.co.kr/img/main/main_06.png?v=1');}
+.lat_6 .linkBtn:hover{background: url('http://globaldbtrade.co.kr/img/main/main_06_over.png?v=1');}
+.bar{    background: url(http://globaldbtrade.co.kr/img/main/bar.png?v=1);
+    width: 866px;
+    height: 13px;
+    position: relative;
+    top: -46px;
+    left: 9px;}

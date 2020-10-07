@@ -3,7 +3,7 @@
 /* 새글 스킨 (latest) */
 .lat {position:relative;margin-bottom:20px;background:#fff; width:100%; float:left;}
 .lat .lat_title {display:block;line-height:45px;font-size:1.2em;color:#253dbe;}
-.lat .lat_title a {position:relative;color:#000;display:inline-block}
+.lat .lat_title a {position:relative;color:#000;display:inline-block; }
 
 .lat ul {padding:10px 0; height:100%;}
 .lat li {position:relative;line-height:18px;border-bottom:1px solid #e5ecee;margin-bottom:10px; height:100%;}
